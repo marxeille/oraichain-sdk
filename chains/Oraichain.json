@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
-  "rpc": "https://rpc.orai.io",
-  "rest": "https://lcd.orai.io",
+  rpc": "https://testnet-v2.rpc.orai.io",
+  "rest": "https://testnet-v2.lcd.orai.io",
   "chainId": "Oraichain",
   "chainName": "Oraichain",
   "networkType": "cosmos",
@@ -22,6 +22,15 @@
       "coinGeckoId": "oraichain-token",
       "bridgeTo": ["0x38", "0x01", "injective-1"],
       "coinImageUrl": "https://images.orai.io/logo/orai-token.png",
+      "gasPriceStep": { "low": 0.003, "average": 0.005, "high": 0.007 }
+    },
+    {
+      "coinDenom": "MOCK-USDAI",
+      "coinMinimalDenom": "factory/orai13eqlhw3307gf7g223hn63q68tm9z86rxylfx2c/mock-usdai",
+      "coinDecimals": 6,
+      "bridgeTo": ["solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp"],
+      "coinGeckoId": "usdai",
+      "coinImageUrl": "https://api.jpow.ai/images/USDAI_logo_black.png",
       "gasPriceStep": { "low": 0.003, "average": 0.005, "high": 0.007 }
     }
   ],
@@ -65,6 +74,14 @@
       "coinGeckoId": "usdai",
       "coinImageUrl": "https://api.jpow.ai/images/USDAI_logo_black.svg"
     },
+    {
+      "coinDenom": "MOCK-USDAI",
+      "coinMinimalDenom": "factory/orai13eqlhw3307gf7g223hn63q68tm9z86rxylfx2c/mock-usdai",
+      "coinDecimals": 6,
+      "bridgeTo": ["solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp"],
+      "coinGeckoId": "usdai",
+      "coinImageUrl": "https://api.jpow.ai/images/USDAI_logo_black.png",
+    }
     {
       "coinDenom": "GUARD",
       "coinMinimalDenom": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/oraiUNrTQmeuc13JoMFSyNcJCnXYpqErfp9v5diy64b",
