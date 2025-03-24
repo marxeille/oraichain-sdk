@@ -1,9 +1,9 @@
 {
   "$schema": "../chain.schema.json",
-  "rpc": "https://rpc.orai.io",
-  "rest": "https://lcd.orai.io",
-  "chainId": "Oraichain",
-  "chainName": "Oraichain",
+  "rpc": "https://testnet-v2.rpc.orai.io",
+  "rest": "https://testnet-v2.lcd.orai.io",
+  "chainId": "Oraichain-testnet",
+  "chainName": "Oraichain testnet",
   "networkType": "cosmos",
   "stakeCurrency": {
     "coinDenom": "ORAI",
@@ -22,6 +22,15 @@
       "coinGeckoId": "oraichain-token",
       "bridgeTo": ["0x38", "0x01", "injective-1"],
       "coinImageUrl": "https://images.orai.io/logo/orai-token.png",
+      "gasPriceStep": { "low": 0.003, "average": 0.005, "high": 0.007 }
+    },
+    {
+      "coinDenom": "MOCK-USDAI",
+      "coinMinimalDenom": "usdai",
+      "coinDecimals": 6,
+      "bridgeTo": ["solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp"],
+      "coinGeckoId": "usdai",
+      "coinImageUrl": "https://api.jpow.ai/images/USDAI_logo_black.png",
       "gasPriceStep": { "low": 0.003, "average": 0.005, "high": 0.007 }
     }
   ],
