@@ -81,7 +81,7 @@
       "bridgeTo": ["solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp"],
       "coinGeckoId": "usdai",
       "coinImageUrl": "https://api.jpow.ai/images/USDAI_logo_black.png",
-    }
+    },
     {
       "coinDenom": "GUARD",
       "coinMinimalDenom": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/oraiUNrTQmeuc13JoMFSyNcJCnXYpqErfp9v5diy64b",
