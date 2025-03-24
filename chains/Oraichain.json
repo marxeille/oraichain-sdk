@@ -3,7 +3,7 @@
   rpc": "https://testnet-v2.rpc.orai.io",
   "rest": "https://testnet-v2.lcd.orai.io",
   "chainId": "Oraichain",
-  "chainName": "Oraichain",
+  "chainName": "Oraichain 2",
   "networkType": "cosmos",
   "stakeCurrency": {
     "coinDenom": "ORAI",
